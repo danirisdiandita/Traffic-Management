@@ -3,12 +3,13 @@
 
     # This repository consists of:
         1) `main.ipynb` as the jupyter notebook file to apply the model.
-        2) `exploration.ipynb` as the jupyter notebook file containing the exploration of the data
-        3) presentation file `presentation.pdf` shows the overall thought processes
+        2) `exploration.ipynb` as the jupyter notebook file containing the exploration of the data, scratches, and thought processes. 
+        3) presentation file `presentation.pdf` shows the overall thought processes.
         
     # The parts below are some passages and codings from the `main.ipynb` notebook, you can go directly
     # to open the file. For quick snapshot of the measured performance in `rmse`, see Part 1 below. 
-    # For quick snapshot about how to run your model, see Part 2 below. All of the stuff is recorded in `main.ipynb` 
+    # For quick snapshot about how to run your model, see Part 2 below. All of the stuff is recorded in `main.ipynb`. 
+    # For high level process, it is better go to `presentation.pdf`.
 
 ### Part 1 - Validation
 
