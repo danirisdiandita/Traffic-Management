@@ -10,6 +10,13 @@
     # to open the file. For quick snapshot of the measured performance in `rmse`, see Part 1 below. 
     # For quick snapshot about how to run your model, see Part 2 below. All of the stuff is recorded in `main.ipynb`. 
     # For high level process, it is better go to `presentation.pdf`.
+    
+    # References for Feature Engineering:
+    # Yongxin Tong, Yuqiang Chen, Zimu Zhou, Lei Chen, Jie Wang, Qiang Yang, Jieping Ye, and
+    # Weifeng Lv, The simpler the better: A unified approach to predicting original taxi demands
+    # based on large-scale online platforms, Proceedings of the 23rd ACM SIGKDD International
+    # Conference on Knowledge Discovery and Data Mining (New York, NY, USA), KDD ’17, ACM,
+    # 2017, pp. 1653–1662.
 
 ### Part 1 - Validation
 
