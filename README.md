@@ -421,16 +421,16 @@ print("the test dataset's average root mean square for all of the time series tr
 
 ### Part 2 - How to Use the Model for your Testing - Validation Process
 
-    from the Validation Above, it is already generated the training and testing data, 
-    we can convert the training and the testing data for simulating the testing and validation data
+    # from the Validation Above, it is already generated the training and testing data, 
+    # we can convert the training and the testing data for simulating the testing and validation data
     
-    like below:
+    # like below:
     
-    X_test, y_test = X_train, y_train
-    X_validation, y_validation = X_test, y_test
+    # X_test, y_test = X_train, y_train
+    # X_validation, y_validation = X_test, y_test
 
-    ===================================================================================
-    I prepared a testing and validation dataframe
+    # ===================================================================================
+    # I prepared a testing and validation dataframe
 
 
 ```python
@@ -441,7 +441,7 @@ testing_df, validation_df = test_val.trainTestByDayPicked(training_day = testing
                                                              test_day = validation_day)
 ```
 
-    showing below the mean encoded X_test and y_test
+    # showing below the mean encoded X_test and y_test
 
 
 ```python
@@ -512,19 +512,7 @@ testing_df.head()
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -587,19 +575,7 @@ validation_df.head()
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -652,7 +628,7 @@ validation_df.head()
 
 
 
-    Applying Preprocessing to Our Data
+    # Applying Preprocessing to Our Data
 
 
 ```python
@@ -667,7 +643,7 @@ X_val = train_test_preprocessor.X_test
 y_val = train_test_preprocessor.y_test
 ```
 
-    Applying Machine Learning Algorithm
+    # Applying Machine Learning Algorithm
 
 
 ```python
