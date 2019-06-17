@@ -433,7 +433,7 @@ testing_df, validation_df = test_val.trainTestByDayPicked(training_day = testing
                                                              test_day = validation_day)
 ```
 
-    # showing below the mean encoded X_test and y_test
+    # showing below the sample dataset, input testing dataset (testing_df) and the validation dataset (validation_df)
 
 
 ```python
