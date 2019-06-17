@@ -420,17 +420,9 @@ print("the test dataset's average root mean square for all of the time series tr
 
 
 ### Part 2 - How to Use the Model for your Testing - Validation Process
-
-    # from the Validation Above, it is already generated the training and testing data, 
-    # we can convert the training and the testing data for simulating the testing and validation data
-    
-    # like below:
-    
-    # X_test, y_test = X_train, y_train
-    # X_validation, y_validation = X_test, y_test
-
     # ===================================================================================
     # I prepared a testing and validation dataframe
+    # ===================================================================================
 
 
 ```python
