@@ -1,15 +1,15 @@
 # Traffic-Management
-Predicting the traffic demand at certain location, day, and timestamp
+    # Predicting the traffic demand at certain location, day, and timestamp
 
-This repository consists of:
-    1) `main.ipynb` as the jupyter notebook file to apply the model.
-    2) `exploration.ipynb` as the jupyter notebook file containing the exploration of the data
+    # This repository consists of:
+        1) `main.ipynb` as the jupyter notebook file to apply the model.
+        2) `exploration.ipynb` as the jupyter notebook file containing the exploration of the data
 
 ### Part 1 - Validation
 
-The model using the best tuned features and hyperparameters, and Time Series Validation using Training Data is shown below - Try to run 
+    # The model using the best tuned features and hyperparameters, and Time Series Validation using Training Data is shown below - Try to run 
 
-Reading the dataset in CSV file 
+    # Reading the dataset in CSV file 
 
 
 ```python
